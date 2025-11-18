@@ -20,7 +20,7 @@ keywords = ["array", "multidimensional", "statistics", "matrix", "ndarray"]
 categories = ["data-structures", "science"]
 
 [dependencies]
-ndarray = "0.16.0"
+ndarray = "0.17.1"
 noisy_float = "0.2.0"
 num-integer = "0.1"
 num-traits = "0.2"
