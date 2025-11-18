@@ -92,8 +92,7 @@ where
         self.map(|x| x.recip())
             .mean()
             .map(|x| x.recip())
-            .ok_or(EmptyInput)
-    }
+     }
 
     fn geometric_mean(&self) -> Result<A, EmptyInput>
     where
@@ -102,8 +101,7 @@ where
         self.map(|x| x.ln())
             .mean()
             .map(|x| x.exp())
-            .ok_or(EmptyInput)
-    }
+     }
 
     fn weighted_var(&self, weights: &Self, ddof: A) -> Result<A, MultiInputError>
     where
